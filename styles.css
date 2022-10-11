@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@200;300;500;600&display=swap');
+html {
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Noto Sans Mono', sans-serif;
+    background-color: #fff;
+}
+
+header {
+    height: 90px;
+    background-color: #252b37;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 20px; 
+}
+
+.nav-button {
+    border-radius: 18px;
+    background: #f5defc;
+    padding: 10px;
+  }
+
+.icon {
+    height: 30px;
+    width: 30px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+
+* {
+    border: 1px solid grey;
+    } 
