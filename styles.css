@@ -17,6 +17,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: solid white thin;
+
     
 
 }
@@ -53,6 +55,8 @@ main {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    background-color: #252b37;
+    
 
 }
 
@@ -71,7 +75,8 @@ section {
 h1 {
     font-weight: 600;
     font-size: 30px;
-    margin: 1.5pc;
+    margin: 2pc;
+    color: white;
     
 }
 
@@ -79,6 +84,11 @@ h1 {
     font-weight: 600;
     font-size: 60px;
     letter-spacing: 8px;
+    padding: 10px;
+    border: solid #f5defc;
+    border-spacing: 2pc;
+    border-radius: 20px;
+    border-width: medium;
 }
 
 h2 {
@@ -86,6 +96,7 @@ h2 {
     font-size: 20px;
     line-height: 1.4;
     margin: 2pc;
+    color: white;
 }
 
 .nav-alt-button {
@@ -114,6 +125,7 @@ footer {
     padding: 10px;
     text-align: right;
 }
-* {
+
+/* * {
     border: 1px solid grey;
     } 
