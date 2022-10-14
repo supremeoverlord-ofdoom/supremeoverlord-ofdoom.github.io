@@ -177,6 +177,19 @@ img {
 
 }
 
+/*for contact page*/
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+
+.contact img {
+    height: 100%;
+    width: 80%;
+    height: 80%;
+}
 
 footer {
     height: 20px;
