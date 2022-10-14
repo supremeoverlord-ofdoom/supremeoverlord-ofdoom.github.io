@@ -56,9 +56,6 @@ main {
     justify-content: center;
     align-items: center;
     background-color: #252b37;
-    height: 48pc;
-    
-
 }
 
 section {
@@ -124,27 +121,53 @@ img {
 
 /*for about page*/
 
+
 .about h1 {
     font-weight: 600;
-    font-size: 50px;
-    margin: 2pc;
+    font-size: 60px;
+    margin: 2%;
     color: white;
-
+    
 }
 
 .about .column1 {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-content: center;
-    gap: 10pc;
-    margin: 2pc;
+    gap: 4%;
 }
 
+.about .header-text {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+
+
+    
+}
+
+.about .image-block{
+    display: flex;
+    align-items: center;
+    
+}
+
+.about img {
+    height: 130px
+}
 .about .column2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1220px;
+}
+
+.about .nav-alt-button {
+    display: flex;
+    justify-content: center;
+
 }
 
 
@@ -153,6 +176,6 @@ footer {
     text-align: right;
 }
 
-/** {
+/* * {
     border: 1px solid white;
     } 
