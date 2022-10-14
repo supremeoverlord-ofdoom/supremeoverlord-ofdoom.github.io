@@ -184,22 +184,40 @@ img {
     justify-content: center;
 }
 
-
-.contact img {
-    height: 100%;
-    width: 80%;
-    height: 80%;
+.contact section {
+    display: flex;
+    flex-direction: column;
 }
 
-form {
+
+.contact .column2 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.contact .header-text {
+    height:fit-content;
+    margin: 0%;
+    align-self: flex-start;
+    margin-bottom: -100px;
+}
+.contact img {
+    height: 100%;
+    width: 30%;
+    align-self: flex-end;
+    margin-bottom: -58px;
 
 
+}
+.form-container {
+/* do not delete this magic bit otherwise it will break don't know why */
 }
 .form-item {
     margin-top: 8%;
     display: flex;
     flex-direction: column;
-    width: 180%;
+    width: 450px;
 }
 
 label {
