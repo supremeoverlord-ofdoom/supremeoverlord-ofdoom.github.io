@@ -98,7 +98,7 @@ header {
     margin-bottom: 5px;
     position: relative;
 
-    background: #cdcdcd;
+    background: #f5defc;
     border-radius: 3px;
 
     z-index: 1;
@@ -162,10 +162,10 @@ header {
   }
 }
 @media (min-width: 601px) {
-    .small-nav {
-      display: none;
-    }
+  .small-nav {
+    display: none;
   }
+}
 
 main {
   background-color: #252b37;
