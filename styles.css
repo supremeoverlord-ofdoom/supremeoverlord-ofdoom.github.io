@@ -249,12 +249,19 @@ textarea {
   height: 120px;
 }
 
+
+.project-grid {
+    display: flex;
+    flex-direction: row;
+}
+
+
 footer {
   height: 20px;
   padding: 10px;
   text-align: right;
 }
 
-/** {
+* {
   border: 1px solid white;
 }
