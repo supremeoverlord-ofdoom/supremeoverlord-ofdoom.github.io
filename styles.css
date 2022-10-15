@@ -131,12 +131,13 @@ img {
 /*for about page*/
 .about section {
     margin-top: 1%;
+    column-gap: 4%;
 }
 .about h1 {
-  font-weight: 600;
-  font-size: 60px;
+  /* font-weight: 600; */
+  font-size: 40px;
   margin: 2%;
-  color: white;
+  /* color: white; */
 }
 
 .about .column1 {
@@ -145,6 +146,9 @@ img {
   justify-content: center;
   align-content: center;
   gap: 4%;
+  column-gap: 12%;
+  align-self: flex-start;
+  margin-top: 15%;
 }
 
 .about .header-text {
