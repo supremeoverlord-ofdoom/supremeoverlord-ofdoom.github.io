@@ -55,7 +55,7 @@ main {
   background-color: #252b37;
   max-width: 1220px;
   height: calc(100vh - 150px);
-  display: flex;
+  /* display: flex; */
 }
 
 section {
