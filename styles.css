@@ -5,11 +5,17 @@ html {
   background-color: #fff;
 }
 
+.body-container {
+    min-height: 100vh;
+    background-color: #252b37;
+    display: flex;
+    flex-direction: column;
+}
+
 body {
-  min-height: 100vh;
-  background-color: #252b37;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  background-color: #252b37;
 }
 
 a {
@@ -174,6 +180,7 @@ main {
   height: calc(100vh - 150px);
   margin-left: 4%;
   margin-right: 2%;
+  height:fit-content;
   /* display: flex; */
 }
 
@@ -245,6 +252,10 @@ img {
 }
 
 /*for about page*/
+
+/* .about {
+    height:fit-content;
+} */
 .about section {
   margin-top: 1%;
   column-gap: 4%;
@@ -301,6 +312,9 @@ img {
   justify-content: center;
 } */
 
+/* .contact {
+    height:fit-content
+} */
 .contact section {
   margin-top: 1%;
   padding: 2%;
@@ -362,6 +376,10 @@ textarea {
 }
 
 /* css for project page*/
+
+/* .projects {
+    height:fit-content;
+} */
 .projects section {
   display: flex;
   flex-direction: column;
@@ -563,4 +581,32 @@ footer {
         width: auto;
         row-gap: 15px;
       }
+}
+
+/*media query for contact page body of page*/
+@media (max-width: 600px) {
+
+    .contact {
+        margin-left: 2%;
+        margin-right: 4%;
+    }
+
+    .contact section {
+        width:100%;
+        /* margin-left: 2%;
+        margin-right: 4%; */
+    }
+
+    .contact .column2 {
+        margin-left: 0%;
+    }
+
+    .contact .form-container {
+        width: 90%;
+    }
+
+    .contact .form-item {
+        width: 100%;
+    }
+
 }
