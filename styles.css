@@ -6,10 +6,10 @@ html {
 }
 
 .body-container {
-    min-height: 100vh;
-    background-color: #252b37;
-    display: flex;
-    flex-direction: column;
+  min-height: 100vh;
+  background-color: #252b37;
+  display: flex;
+  flex-direction: column;
 }
 
 body {
@@ -180,7 +180,7 @@ main {
   height: calc(100vh - 150px);
   margin-left: 4%;
   margin-right: 2%;
-  height:fit-content;
+  height: fit-content;
   /* display: flex; */
 }
 
@@ -308,13 +308,14 @@ img {
 /*for contact page*/
 
 /* .contact {
-  display: flex;
+  display:block;
   justify-content: center;
 } */
 
 /* .contact {
     height:fit-content
 } */
+
 .contact section {
   margin-top: 1%;
   padding: 2%;
@@ -496,14 +497,26 @@ footer {
   }
 
   .column2 {
-    margin-bottom: -25%;
-    margin-left: 50%;
+    margin-bottom: -30%;
+    margin-left: 35%;
   }
 
   footer {
     text-align: center;
     height: 40px;
   }
+
+  .index .column1 {
+    row-gap: 0px;
+  }
+}
+
+/*home section needs some extra queries for between 600 and 1240px*/
+@media (max-width: 1240px) {
+  .index .column1 {
+    row-gap: 40px;
+  }
+
 }
 
 /*media query for aboutpage body of page*/
@@ -539,6 +552,7 @@ footer {
     width: 100%;
     margin-left: 6%;
     margin-right: 4%;
+    margin-bottom: 4%;
   }
 
   .about h2 {
@@ -549,64 +563,79 @@ footer {
     width: 60%;
   }
 }
-* {
-  border: 1px solid white;
+
+/*about section needs some extra queries for between 600 and 960*/
+
+@media (max-width: 960px) {
+  .about section {
+    flex-direction: column;
+    width: auto;
+  }
+
+  .about .column1 {
+    margin-top: 0%;
+  }
 }
 
+/* * {
+  border: 1px solid white;
+} */
 
 /*media query for projects page body of page*/
 @media (max-width: 600px) {
+  .projects {
+    margin-left: 2%;
+    margin-right: 4%;
+  }
 
-    .projects {
-        margin-left: 2%;
-        margin-right: 4%;
-    }
-
-    .projects section {
-        width:fit-content;
-        /* margin-left: 2%;
+  .projects section {
+    width: fit-content;
+    /* margin-left: 2%;
         margin-right: 4%; */
-    }
+  }
 
-    .projects h1 {
-        font-size: 22px;
-    }
+  .projects h1 {
+    font-size: 22px;
+  }
 
-    .projects .header-text {
-        margin-bottom: 2%;
-    }
+  .projects .header-text {
+    margin-bottom: 2%;
+  }
 
-    .project-grid {
-        flex-direction: column;
-        width: auto;
-        row-gap: 15px;
-      }
+  .project-grid {
+    flex-direction: column;
+    width: auto;
+    row-gap: 15px;
+  }
 }
 
 /*media query for contact page body of page*/
 @media (max-width: 600px) {
+  #contact-body {
+    display: block; /*dodgy fix for this page, watch what happens if you remove this at 500px width*/
+  }
 
-    .contact {
-        margin-left: 2%;
-        margin-right: 4%;
-    }
+  .contact {
+    margin-left: 2%;
+    margin-right: 4%;
+  }
 
-    .contact section {
-        width:100%;
-        /* margin-left: 2%;
+  .contact section {
+    width: 100%;
+    /* margin-left: 2%;
         margin-right: 4%; */
-    }
+  }
 
-    .contact .column2 {
-        margin-left: 0%;
-    }
+  .contact .column2 {
+    margin: 2%;
+    row-gap: 10px;
+  }
 
-    .contact .form-container {
-        width: 90%;
-    }
+  .contact .form-container {
+    width: 90%;
+  }
 
-    .contact .form-item {
-        width: 100%;
-    }
-
+  .contact .form-item {
+    width: 100%;
+  }
 }
