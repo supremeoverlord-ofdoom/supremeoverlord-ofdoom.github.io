@@ -534,3 +534,33 @@ footer {
 * {
   border: 1px solid white;
 }
+
+
+/*media query for projects page body of page*/
+@media (max-width: 600px) {
+
+    .projects {
+        margin-left: 2%;
+        margin-right: 4%;
+    }
+
+    .projects section {
+        width:fit-content;
+        /* margin-left: 2%;
+        margin-right: 4%; */
+    }
+
+    .projects h1 {
+        font-size: 22px;
+    }
+
+    .projects .header-text {
+        margin-bottom: 2%;
+    }
+
+    .project-grid {
+        flex-direction: column;
+        width: auto;
+        row-gap: 15px;
+      }
+}
