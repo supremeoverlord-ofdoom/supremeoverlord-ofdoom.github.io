@@ -8,8 +8,8 @@ html {
 body {
   min-height: 100vh;
   background-color: #252b37;
-  /* display: flex;
-  flex-direction: column; */
+  display: flex;
+  flex-direction: column;
 }
 
 a {
@@ -25,6 +25,7 @@ header {
   justify-content: space-between;
   align-items: center;
   border-bottom: solid white thin;
+  max-width: 1220px;
 }
 
 .main-nav {
@@ -295,10 +296,10 @@ img {
 
 /*for contact page*/
 
-.contact {
+/* .contact {
   display: flex;
   justify-content: center;
-}
+} */
 
 .contact section {
   margin-top: 1%;
