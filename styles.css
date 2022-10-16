@@ -47,10 +47,19 @@ header {
   padding: 10px;
 }
 
+.nav-button:hover {
+    background-color: #c47ca8;
+}
+
 .icon {
   height: 30px;
   width: 30px;
 }
+
+.icon:hover {
+    border-color: #f5defc;
+    opacity: 20%;
+  }
 
 .socials {
   display: flex;
@@ -235,6 +244,10 @@ h2 {
   background: #d9f5fc;
   padding: 8px;
   margin: 2pc;
+}
+
+.nav-alt-button:hover {
+    background-color: #f5defc;
 }
 .nav-alt-button-text {
   font-weight: 600;
@@ -446,6 +459,12 @@ textarea {
 .code-badge a {
   color: white;
 }
+
+.github-button:hover {
+  border-color: #f5defc;
+  opacity: 20%;
+}
+
 footer {
   height: 20px;
   padding: 10px;
@@ -516,7 +535,6 @@ footer {
   .index .column1 {
     row-gap: 40px;
   }
-
 }
 
 /*media query for aboutpage body of page*/
@@ -577,10 +595,6 @@ footer {
   }
 }
 
-/* * {
-  border: 1px solid white;
-} */
-
 /*media query for projects page body of page*/
 @media (max-width: 600px) {
   .projects {
@@ -639,3 +653,7 @@ footer {
     width: 100%;
   }
 }
+
+/* * {
+    border: 1px solid white;
+  } */
