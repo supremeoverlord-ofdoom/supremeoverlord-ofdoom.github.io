@@ -1,0 +1,113 @@
+@import "index.css";
+
+/*for about page*/
+
+/* .about {
+    height:fit-content;
+} */
+.about section {
+  margin-top: 1%;
+  column-gap: 4%;
+}
+.about h1 {
+  /* font-weight: 600; */
+  font-size: 40px;
+  margin: 2%;
+  /* color: white; */
+}
+
+.about .column1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  gap: 4%;
+  column-gap: 12%;
+  align-self: flex-start;
+  margin-top: 15%;
+}
+
+.about .header-text {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+}
+
+.about .image-block {
+  display: flex;
+  align-items: center;
+}
+
+.about img {
+  height: 130px;
+}
+.about .column2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1220px;
+}
+
+.about .nav-alt-button {
+  display: flex;
+  justify-content: center;
+}
+
+/*media query for aboutpage body of page*/
+@media (max-width: 600px) {
+  .about {
+    margin-left: 0%;
+  }
+
+  .about section {
+    flex-direction: column;
+    width: auto;
+  }
+
+  .about .column1 {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    column-gap: 2%;
+    width: 100%;
+  }
+
+  .about img {
+    margin-bottom: -30%;
+  }
+
+  /* .about .column2-textblock {
+      width: 100%;
+      margin
+    } */
+
+  .about .column2 {
+    width: 100%;
+    margin-left: 6%;
+    margin-right: 4%;
+    margin-bottom: 4%;
+  }
+
+  .about h2 {
+    margin-top: 2%;
+  }
+
+  .about .nav-alt-button {
+    width: 60%;
+  }
+}
+
+/*about section needs some extra queries for between 600 and 960*/
+
+@media (max-width: 960px) {
+  .about section {
+    flex-direction: column;
+    width: auto;
+  }
+
+  .about .column1 {
+    margin-top: 0%;
+  }
+}
