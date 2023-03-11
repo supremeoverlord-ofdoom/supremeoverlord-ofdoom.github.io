@@ -1,0 +1,105 @@
+@import "index.css";
+
+/* css for project page*/
+
+/* .projects {
+    height:fit-content;
+} */
+.projects section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.projects .column1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.projects .header-text {
+  margin-bottom: -50px;
+}
+#hero-goose {
+  height: 120px;
+}
+
+.project-grid {
+  display: flex;
+  flex-direction: row;
+  column-gap: 4%;
+}
+
+.project-tile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid #d9f5fc;
+  padding: 1%;
+  border-radius: 20px;
+}
+.project-tile-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+  height: 40px;
+  border-bottom: 1px solid white;
+}
+
+.project-tile h3 {
+  padding: 0%;
+  margin: 2%;
+  font-weight: 300;
+  color: white;
+}
+
+.project-tile-bottom {
+  display: flex;
+  flex-direction: row;
+  column-gap: 2%;
+}
+
+.code-badge {
+  border-radius: 18px;
+  border: 2px solid #c47ca8;
+  padding: 4px;
+}
+
+.code-badge a {
+  color: white;
+}
+
+.github-button:hover {
+  border-color: #f5defc;
+  opacity: 20%;
+}
+
+/*media query for projects page body of page*/
+@media (max-width: 600px) {
+  .projects {
+    margin-left: 2%;
+    margin-right: 4%;
+  }
+
+  .projects section {
+    width: fit-content;
+    /* margin-left: 2%;
+          margin-right: 4%; */
+  }
+
+  .projects h1 {
+    font-size: 22px;
+  }
+
+  .projects .header-text {
+    margin-bottom: 2%;
+  }
+
+  .project-grid {
+    flex-direction: column;
+    width: auto;
+    row-gap: 15px;
+  }
+}
