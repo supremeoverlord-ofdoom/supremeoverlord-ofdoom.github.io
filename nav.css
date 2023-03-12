@@ -13,8 +13,8 @@ html {
 }
 
 body {
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
   background-color: #252b37;
 }
 
