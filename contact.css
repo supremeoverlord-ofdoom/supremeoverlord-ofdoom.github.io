@@ -21,7 +21,7 @@
 
 .contact .column2 {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   align-content: center;
 }
 
@@ -37,9 +37,11 @@
   align-self: flex-end;
   margin-bottom: -58px;
 }
-.form-container {
-  /* do not delete this magic bit otherwise it will break don't know why */
-}
+/* .form-container {
+
+} */
+
+
 .form-item {
   margin-top: 8%;
   display: flex;

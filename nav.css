@@ -31,7 +31,7 @@ header {
   justify-content: space-between;
   align-items: center;
   border-bottom: solid white thin;
-  max-width: 1220px;
+  /* max-width: 1220px; */
 }
 
 .main-nav {

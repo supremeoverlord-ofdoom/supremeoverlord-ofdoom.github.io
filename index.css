@@ -1,13 +1,18 @@
 @import "nav.css";
 
+html {
+    scroll-behavior: smooth;
+  }
+
 main {
   background-color: #252b37;
-  max-width: 1220px;
-  height: calc(100vh - 150px);
+  /* max-width: 1220px; */
+  /* height: calc(100vh - 150px); */
   margin-left: 4%;
   margin-right: 2%;
-  height: fit-content;
-  /* display: flex; */
+  height: 100vh;
+  /* height: fit-content; */
+
 }
 
 section {

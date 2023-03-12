@@ -8,6 +8,8 @@
 .about section {
   margin-top: 1%;
   column-gap: 4%;
+  margin: 0 auto;
+  width: auto;
 }
 .about h1 {
   /* font-weight: 600; */
