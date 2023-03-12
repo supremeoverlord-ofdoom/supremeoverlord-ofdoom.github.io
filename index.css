@@ -1,8 +1,8 @@
 @import "nav.css";
 
 html {
-    scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth;
+}
 
 main {
   background-color: #252b37;
@@ -12,7 +12,6 @@ main {
   margin-right: 2%;
   height: 100vh;
   /* height: fit-content; */
-
 }
 
 section {
@@ -41,11 +40,69 @@ h1 {
   color: white;
 }
 
+.animated-h2-div {
+  width: 100%;
+  padding-top: 10%;
+}
+
+.animated-h2 {
+  -webkit-animation: typing 3.5s steps(40),blink-caret .75s step-end infinite;
+  animation: typing 3.5s steps(40),blink-caret .75s step-end infinite;
+  border-right: .15em solid #f0f8ff;
+  color: #f0f8ff;
+  font-size: xx-large;
+  letter-spacing: .15em;
+  /* margin: 0 auto; */
+  overflow: hidden;
+  white-space: nowrap;
+  z-index: 100;
+}
+
+@-webkit-keyframes typing {
+  0% {
+      width: 0
+  }
+
+  to {
+      width: 100%
+  }
+}
+
+@keyframes typing {
+  0% {
+      width: 0
+  }
+
+  to {
+      width: 100%
+  }
+}
+
+@-webkit-keyframes blink-caret {
+  0%,to {
+      border-color: transparent
+  }
+
+  50% {
+      border-color: #f0f8ff
+  }
+}
+
+@keyframes blink-caret {
+  0%,to {
+      border-color: transparent
+  }
+
+  50% {
+      border-color: #f0f8ff
+  }
+}
+
 .emphasis {
   font-weight: 600;
   font-size: 60px;
   letter-spacing: 8px;
-  padding: 10px;
+  padding: 40px;
   border: solid #f5defc;
   border-spacing: 2pc;
   border-radius: 20px;
@@ -96,7 +153,7 @@ footer {
 
 /*media query for index page body of page*/
 @media (max-width: 600px) {
- /*for the base of the pages*/
+  /*for the base of the pages*/
   main {
     height: auto;
   }
@@ -105,7 +162,7 @@ footer {
   .index {
     height: 100vh;
   }
-  
+
   section {
     /* display: inline-block; */
     flex-direction: column-reverse;
