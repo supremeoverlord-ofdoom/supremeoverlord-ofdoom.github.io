@@ -96,9 +96,16 @@ footer {
 
 /*media query for index page body of page*/
 @media (max-width: 600px) {
+ /*for the base of the pages*/
   main {
     height: auto;
   }
+
+  /*doesn't actually work for index page*/
+  .index {
+    height: 100vh;
+  }
+  
   section {
     /* display: inline-block; */
     flex-direction: column-reverse;

@@ -2,14 +2,6 @@
 
 /*for contact page*/
 
-/* .contact {
-  display:block;
-  justify-content: center;
-} */
-
-/* .contact {
-    height:fit-content
-} */
 
 .contact section {
   margin-top: 1%;
@@ -82,6 +74,7 @@ textarea {
   .contact {
     margin-left: 2%;
     margin-right: 4%;
+    height: 100vh;
   }
 
   .contact section {
