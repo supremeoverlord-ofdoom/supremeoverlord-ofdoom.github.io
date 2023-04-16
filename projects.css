@@ -9,6 +9,7 @@
   display: flex;
   flex-direction: column;
   row-gap: 20px;
+  margin-top: 2%;
 }
 
 .projects .column1 {
@@ -55,13 +56,38 @@
   margin: 2%;
   font-weight: 300;
   color: white;
+  padding: 2%;
 }
 
 .project-tile-bottom {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 2%;
+  padding: 1%;
+}
+
+.code-badge-container {
+  display: flex;
+  flex-direction: row;
   column-gap: 2%;
 }
+
+
+.project-button-container {
+  display: flex;
+  gap: 5%;
+  align-items: center;
+}
+
+.demo-button {
+  border-radius: 18px;
+  background-color: #f5defc;
+  /* border: 2px solid #c47ca8; */
+  padding: 4px;
+}
+
 
 .code-badge {
   border-radius: 18px;
@@ -73,7 +99,18 @@
   color: white;
 }
 
-.github-button:hover {
+.project-type-badge {
+  border-radius: 18px;
+  border: 2px dotted #d9f5fc;
+  padding: 4px;
+}
+
+.project-type-badge  a {
+  color: #d9f5fc;
+}
+
+.github-button:hover,
+.demo-button:hover {
   border-color: #f5defc;
   opacity: 20%;
 }
