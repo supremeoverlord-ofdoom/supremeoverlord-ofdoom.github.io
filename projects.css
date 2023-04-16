@@ -28,7 +28,7 @@
   display: grid;
   grid-template-columns: repeat(2,1fr);
   gap: 30px;
-  width: 80%;
+  width: 100%;
   margin-bottom: 10%;
 }
 
