@@ -272,3 +272,15 @@
 .card:nth-child(even) > .info > .sub-title::before {
   right: -45px;
 }
+
+.long-page-link {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.long-page-link:hover {
+  color: white;
+  text-decoration: underline;
+  
+}
