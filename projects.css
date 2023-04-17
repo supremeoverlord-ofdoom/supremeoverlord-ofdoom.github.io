@@ -2,9 +2,9 @@
 
 /* css for project page*/
 
-/* .projects {
-    height:fit-content;
-} */
+.projects {
+    height:100vh;
+}
 .projects section {
   display: flex;
   flex-direction: column;
@@ -113,6 +113,10 @@
 .demo-button:hover {
   border-color: #f5defc;
   opacity: 20%;
+}
+
+.projects footer {
+  position: relative;
 }
 
 /*media query for projects page body of page*/
