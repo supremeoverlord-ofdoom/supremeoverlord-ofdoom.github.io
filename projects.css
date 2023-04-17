@@ -9,7 +9,7 @@
   display: flex;
   flex-direction: column;
   row-gap: 20px;
-  margin-top: 2%;
+  margin-top: 40px;
 }
 
 .projects .column1 {

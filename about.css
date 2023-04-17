@@ -11,7 +11,8 @@
   margin: 0 auto;
   width: auto;
   flex-direction: column;
-  margin-top: 2%;
+  /* margin-top: 2%; */
+  margin-top: 70px;
 }
 .about h1 {
   /* font-weight: 600; */
