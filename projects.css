@@ -1,5 +1,19 @@
 @import "index.css";
 
+
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #252b37;
+  position: fixed;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #c47ca8;
+  width: 0%;
+  position: fixed;
+}
 /* css for project page*/
 
 .projects {

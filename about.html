@@ -69,6 +69,9 @@
           </div>
         </nav>
       </header>
+      <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+      </div> 
       <main class="about">
         <section>
           <div class="column1">
@@ -208,5 +211,16 @@
       </main>
       <footer>Designed and Built by Sierra McDowell</footer>
     </div>
+    <script>
+      // When the user scrolls the page, execute myFunction 
+      window.onscroll = function() {myFunction()};
+      
+      function myFunction() {
+        var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        var scrolled = (winScroll / height) * 100;
+        document.getElementById("myBar").style.width = scrolled + "%";
+      }
+      </script>
   </body>
 </html>
