@@ -16,9 +16,9 @@
 }
 /* css for project page*/
 
-.projects {
+/* .projects {
     height:100vh;
-}
+} */
 .projects section {
   display: flex;
   flex-direction: column;
