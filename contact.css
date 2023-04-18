@@ -87,6 +87,7 @@ textarea:focus {
   align-self: center;
   font-family: "Noto Sans Mono", sans-serif;
   font-weight: bold;
+  color: black;
 }
 
 .form-button:hover {
@@ -96,7 +97,7 @@ textarea:focus {
 
 @media screen and (max-width: 699px) {
   .form-container {
-    min-width: 60%;
+    min-width: 70%;
   }
 }
 

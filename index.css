@@ -291,6 +291,14 @@ footer a {
   line-height: normal;
 }
 
+footer {
+  font-size: 0.7rem;
+}
+ 
+footer a {
+  font-size: 0.7rem;
+}
+
 
 }
 
