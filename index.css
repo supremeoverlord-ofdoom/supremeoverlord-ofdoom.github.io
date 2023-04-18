@@ -16,7 +16,7 @@ html {
 }
 
 .wrapper {
-  min-height: calc(100vh - 80px); /* Replace 80px with the height of your footer */
+  min-height: calc(100vh - 50px); /* Replace 80px with the height of your footer */
   display: flex;
   flex-direction: column;
 }
