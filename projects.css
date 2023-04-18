@@ -160,3 +160,35 @@
     row-gap: 15px;
   }
 }
+
+
+/* CSS for tablet view */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .project-grid {
+    display: grid;
+    grid-template-columns: auto;
+
+  }
+}
+
+/* CSS for mobile view */
+@media only screen and (max-width: 480px) {
+  .project-grid {
+    display: grid;
+    grid-template-columns: auto;
+
+  }
+
+  .project-type-badge  a,
+  .code-badge a {
+    font-size: 0.6rem;
+    padding: 0;
+  }
+
+  .project-type-badge,
+  .code-badge   {
+    min-width: fit-content;
+    display: flex;
+  }
+}
+
